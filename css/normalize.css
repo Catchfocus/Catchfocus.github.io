@@ -1,0 +1,121 @@
+@font-face{
+    font-family: Brandon;
+    src: url(Brandon_reg.otf');
+}
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Brandon ,'Josefin Sans', sans-serif;
+    color: #ffffff;
+    font-weight: 100;
+    font-style: normal;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #000000;
+}
+
+div.avatar-img img{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    width:200px;
+    height: auto;
+}
+
+h1 {
+    margin: 20px;
+    font-size: 1.9rem;
+    text-align: center;
+}
+h5{
+    margin:10px;
+}
+p{
+    margin: 20px;
+    text-align: center;
+}
+
+p .copyright{
+    margin:0px;
+    text-align: center;
+}
+
+.citation{
+    text-align: center;
+    font-size: 0.8rem;
+    font-style: italic;
+}
+
+
+.header {
+    align-items: center;
+    padding: 32px;
+    height: 40vh;
+    box-sizing: border-box;
+}
+
+.nav-bar{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.nav-item{
+    display: inline-block;
+    margin: 16px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #f1f1f1;
+    font-size: 1.2rem;
+}
+
+
+
+
+
+.container{
+    min-height: 50vh;
+}
+
+img {
+    filter: url(filters.svg#grayscale);
+    filter: gray;
+    -webkit-filter: grayscale(1);
+    -webkit-transition: all .5s ease-in-out;  
+}
+
+img:hover {
+    filter: none;
+    -webkit-filter: grayscale(0);
+    -webkit-transform: scale(1.01);
+}
+
+
+
+.text-center {
+    text-align: center;
+}
+
+
+.footer {
+    text-align: center;
+    font-size: 0.6em;
+    box-shadow:0 0 10px #00000070; 
+    background-color: #111111;
+    position: relative;
+    left:0;
+    bottom:0;
+    right:0;
+    padding:0.1rem;
+}
+
