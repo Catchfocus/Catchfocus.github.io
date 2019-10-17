@@ -84,14 +84,14 @@ p .copyright{
 
 
 .container{
-    min-height: 50vh;
+    min-height: 45vh;
 }
 
 img {
     filter: url(filters.svg#grayscale);
     filter: gray;
     -webkit-filter: grayscale(1);
-    -webkit-transition: all .5s ease-in-out;  
+    -webkit-transition: all .3s ease-in-out;  
 }
 
 img:hover {
@@ -111,11 +111,13 @@ img:hover {
     text-align: center;
     font-size: 0.6em;
     box-shadow:0 0 10px #00000070; 
-    background-color: #111111;
+    background-color: #1e1e1e;
     position: relative;
     left:0;
     bottom:0;
     right:0;
     padding:0.1rem;
+    
+    
 }
 
